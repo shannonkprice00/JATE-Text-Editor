@@ -1,5 +1,5 @@
 # JATE-Text-Editor
-This application is a text editor that runs in the browser. It is a single-page application that meets the PWA criteria. Additionally, features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline.
+This application is a text editor that runs in the browser. It is a single-page application that meets the Progressive Web Application (PWA) criteria. Additionally, features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application also functions offline.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,20 +11,19 @@ This application is a text editor that runs in the browser. It is a single-page 
 - [Questions](#questions)
 
 ## Installation
-To use this project, you will need to install the required dependencies by using the command `$ npm install` at the root directory in your terminal.<br>
-<br> <img src="./assets/images/screenshot1.png" style="border: 1px solid blue;" width=75% /> <br><br>
+N/A
 
 ## Usage
-You can view a video demonstration of how to use this application [here](https://drive.google.com/file/d/137jQu0pFbdUvCtRPsgac03zuUzoqrTvf/view?usp=sharing). <br>
-To run the program, use the following command from the root directory in the terminal:<br> `$ node server.js`<br> OR <br> `$ npm start` <br> 
-<br> <img src="./assets/images/screenshot2.png" style="border: 1px solid blue;" width=75% /> <br><br>
-The functionality of the application is demonstrated using Insomnia Core. You can find documentation on how to install Insomnia Core [here](https://docs.insomnia.rest/insomnia/install). If you need further information on how to use Insomnia Core, you can find the documentation [here](https://docs.insomnia.rest/insomnia/get-started). Using Insomnia Core, you can follow the appropriate api routes using the dropdown next to the address bar to GET, POST, PUT, and DELETE (read data, create data, update data, and delete data) and by updating the address according to the desired api route. Please refer to the video demonstration for details on each route. <br>
-<br> <img src="./assets/images/screenshot3.png" style="border: 1px solid blue;" width=75% /> <br><br> 
+You can use this application by clicking [here](https://lit-castle-67361-fccb0af3a0da.herokuapp.com/). <br>
+Visiting the link above will open the application which looks like the following image: <br>
+<br> <img src="./client/src/images/screenshot1.png" style="border: 1px solid blue;" width=100% /> <br><br>
+You can type any JavaScript you wish and when you click outside of the window, the changes will be saved to the indexedDB as well as local storage as a back up. This application will function offline and will sync to the database when the connection is restored. As a PWA, you can install the application to your device. Click on the install button and you will get a window prompt: <br>
+<br> <img src="./client/src/images/screenshot2.png" style="border: 1px solid blue;" width=50% /> <br><br>
+Click on "install" and the app will install to your device. Any changes made to the application via the browswer or the installed app will update the database so the user can access all data on either platform. 
 
 ## Credits
-Tutorials Followed:<br>
-[Email Validation](https://stackoverflow.com/questions/18022365/mongoose-validate-email-syntax)<br>
-[String Length Validation](https://stackoverflow.com/questions/28829912/mongoose-schema-set-max-length-for-a-string)<br>
+Worked with mentor Jahn Swob on debugging registering the service worker as well as the getDb function.
+Worked with tutor Jacob Nordan on caching.
 
 ## License
 MIT License
