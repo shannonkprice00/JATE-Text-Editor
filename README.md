@@ -11,7 +11,7 @@ This application is a text editor that runs in the browser. It is a single-page 
 - [Questions](#questions)
 
 ## Installation
-To use this project, you will need to install the required dependencies by using the command `$ npm i` in your terminal.<br>
+To use this project, you will need to install the required dependencies by using the command `$ npm install` at the root directory in your terminal.<br>
 <br> <img src="./assets/images/screenshot1.png" style="border: 1px solid blue;" width=75% /> <br><br>
 
 ## Usage
